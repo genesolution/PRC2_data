@@ -44,7 +44,7 @@ All take as input 2 files that have to be located in the same directory:
 
 The execution line is the same as for any Python program without extra parameters:
 
-<span style="color: blue;>  python3 Genes_EZH2.py </span>
+<span style="color: blue;">  python3 Genes_EZH2.py </span>
 
 
 
