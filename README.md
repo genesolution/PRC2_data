@@ -43,7 +43,8 @@ All take as input 2 files that have to be located in the same directory:
 * CRISPR_20Q3_PRC2.xlsx
 
 The execution line is the same as for any Python program without extra parameters:
-<q> python3 Genes_EZH2.py </q>
+
+<span style="color: blue>  python3 Genes_EZH2.py </span>
 
 
 
