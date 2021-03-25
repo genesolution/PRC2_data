@@ -34,7 +34,7 @@ Achilles_gene_effect.csv
 ## Code for the calculations  
 
 The needed code files that are needed:
-/p Genes_EZH2.py  - calculates all the statistics for the EZH2
+</p> Genes_EZH2.py  - calculates all the statistics for the EZH2
 Genes_EED.py  - same for EED
 
 It takes as input 2 files that have to be located in the same directory:
