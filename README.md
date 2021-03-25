@@ -36,13 +36,14 @@ Achilles_gene_effect.csv
 The needed code files that are needed:
 Genes_EZH2.py  - calculates all the statistics for the EZH2
 
+
 It takes as input 2 files that have to be located in the same directory:
 
-CCLE_mutations.csv
-CRISPR_20Q3_PRC2.xlsx
+* CCLE_mutations.csv
+* CRISPR_20Q3_PRC2.xlsx
 
 The execution is the same as for any Python program without extra parameters:
-python3 Genes_EZH2.py
+/* python3 Genes_EZH2.py */
 
 Same calculations for EED could be done using:
 Genes_EED.py
