@@ -30,6 +30,10 @@ This table was received by taking and renaming the needed columns for the PRC2 r
 
 Achilles_gene_effect.csv 
 
+Due to quite small size, we have added it to this repository:
+
+CRISPR_20Q3_PRC2.xlsx 
+
 
 ## Code for the calculations  
 
