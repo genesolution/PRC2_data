@@ -1,7 +1,7 @@
 # PRC2_data
 
 ## DepMap files for the analysis
-
+## CCLE_mutations.csv
 All the initial data files could be downloaded using this link:
 
 https://depmap.org/portal/download/ 
