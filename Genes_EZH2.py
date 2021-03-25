@@ -23,7 +23,7 @@ from scipy.stats import chisquare
 
 mutations = pd.read_csv( 'CCLE_mutations.csv',sep='\t')
 
-genes = pd.read_excel('CRISPR (AVANA) Public 20Q3 PRC2 basic.xlsx')
+genes = pd.read_excel('CRISPR_20Q3_PRC2.xlsx')
 
 print(genes.head(10))
 
