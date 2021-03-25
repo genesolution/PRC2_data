@@ -35,15 +35,15 @@ Achilles_gene_effect.csv
 
 The executable code files:
 <p> Genes_EZH2.py  - calculates all the statistics for the EZH2
-Genes_EED.py  - same for EED
+<p> Genes_EED.py  - same for EED
 
-It takes as input 2 files that have to be located in the same directory:
+All take as input 2 files that have to be located in the same directory:
 
 * CCLE_mutations.csv
 * CRISPR_20Q3_PRC2.xlsx
 
-The execution is the same as for any Python program without extra parameters:
-python3 Genes_EZH2.py
+The execution line is the same as for any Python program without extra parameters:
+<q> python3 Genes_EZH2.py </q>
 
 
 
