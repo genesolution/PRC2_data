@@ -1,10 +1,9 @@
-# The code to make a table for gene 'EZH2'
+# The code to make a table for gene 'SUZ12'
 # 
 # Here we calculate all genes which mutations are statistically often lead to
 # value < -0.5 with a good p-value comparing to all
 # and value < 0 with a good p-value comaring to all
 #
-# To check another gene just replace all EZH2 with EED and so on
 #
 # The code is written by Chetverina O.A.
 #
@@ -40,15 +39,15 @@ print(damaged.head(10))
 
 table = pd.DataFrame() 
 
-EZH2=np.array(genes['EZH2'])
-one_gene=genes[['EZH2','DepMap_ID']]
+SUZ12=np.array(genes['SUZ12'])
+one_gene=genes[['SUZ12','DepMap_ID']]
 
 #print(one_gene.head(10))
 
 m_g=-0.5
 g_num=len(one_gene.index)
-g_less=len(one_gene[one_gene['EZH2']<m_g].index)
-g_null=len(one_gene[one_gene['EZH2']<0].index)
+g_less=len(one_gene[one_gene['SUZ12']<m_g].index)
+g_null=len(one_gene[one_gene['SUZ12']<0].index)
 
 gd_less=g_num-g_less
 gd_null=g_num-g_null
@@ -57,7 +56,7 @@ gd_null=g_num-g_null
 
 mut_set=set(part_m['Hugo_Symbol'])
 
-# here we fill the table for gene 'EZH2'
+# here we fill the table for gene 'SUZ12'
 
 for i in mut_set:
     dep_map_d=damaged[damaged['Hugo_Symbol']==i]
@@ -67,8 +66,8 @@ for i in mut_set:
     mut_gene=one_gene[one_gene['DepMap_ID'].isin(deps)]
     
     num= len(mut_gene.index)
-    m_less=len(mut_gene[mut_gene['EZH2']<m_g].index)
-    m_null=len(mut_gene[mut_gene['EZH2']<0].index)
+    m_less=len(mut_gene[mut_gene['SUZ12']<m_g].index)
+    m_null=len(mut_gene[mut_gene['SUZ12']<0].index)
      
     d_less=num-m_less
     d_null=num-m_null
@@ -102,7 +101,7 @@ for i in mut_set:
 table['p-value']=chisquare([table['Mut<'],table["dMut<"]],[table["pMut<"],table["dpMut<"]])[1]
 
 table = table[["Mutation", "Rule", "Mut_num","Mut<","dMut<", "pMut<","dpMut<","half X2","p-value"]]
-table.to_excel("EZH2_0_5.xlsx")
+table.to_excel("SUZ12_0_5.xlsx")
 
 
 exit()
