@@ -24,9 +24,13 @@ Achilles_gene_effect.csv – 276 Mb – file contains information of the genes C
  
 The silent mutations were excluded from the analysis using the attribute ‘Variant_Classification’ in ‘CCLE_mutations.csv’ file.
  
-##  
+##  CRISPR_20Q3_PRC2.xlsx 
  
- 
+This table was received by taking and renaming the needed columns for the PRC2 research from the file:
+
+Achilles_gene_effect.csv 
+
+
 ## Code for the calculations  
 
 The needed code files that are needed:
