@@ -17,9 +17,9 @@ DepMap (https://depmap.org/portal/) analysis of the dependency of a panel of tum
  
 The following files of the Public 20Q3 release were downloaded for the analysis:
  
-* CCLE_mutations.csv – 276.1 Mb – file contains information of mutations in cell lines. 
+* CCLE_mutations.csv – 276.1 Mb – the file contains information of mutations in cell lines. 
  
-* Achilles_gene_effect.csv – 276 Mb – file contains information of the genes Crispr knockout effect on cell lines.
+* Achilles_gene_effect.csv – 276 Mb – the file contains information of the genes Crispr knockout effect on cell lines.
  
  
 The silent mutations were excluded from the analysis using the attribute ‘Variant_Classification’ in ‘CCLE_mutations.csv’ file.
@@ -40,7 +40,8 @@ CRISPR_20Q3_PRC2.xlsx
 The executable code files:
 <p> Genes_EZH2.py  - calculates all the statistics for the EZH2
 <p> Genes_EED.py  - same for EED
-
+<p> Genes_EED.py  - same for SUZ12
+ 
 All take as input 2 files that have to be located in the same directory:
 
 * CCLE_mutations.csv
