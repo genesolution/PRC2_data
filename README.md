@@ -7,8 +7,10 @@ All the initial data files could be downloaded using this link:
 https://depmap.org/portal/download/ 
 
 The files are located at:
-https://figshare.com/articles/dataset/public_20q3/12931238/1DepMap 20Q3 Public. 
+
+"https://figshare.com/articles/dataset/public_20q3/12931238/1" 
  
+
 DepMap (https://depmap.org/portal/) analysis of the dependency of a panel of tumor cell lines on individual genes was conducted using the CRISPR (Avana) Public 20Q3 (DepMap, Broad (2020): DepMap 20Q3 Public. figshare. Dataset doi:10.6084/m9.figshare.12931238.v1.) (33,34). 
  
  
