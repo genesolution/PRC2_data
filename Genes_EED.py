@@ -8,10 +8,11 @@
 # The code is written by Chetverina O.A.
 #
 # for the research
-# 
-# Identifying cancers dependent on Polycomb repressive complex 2
-# Maksim Erokhin 1* , Olga Chetverina 2,3 , Balázs Győrffy 4 , Victor V. Tatarskiy 5,6 , Alexander A.
-# Shtil 5,6 , Igor B. Roninson 5,7 , Giacomo Cavalli 8* , Darya Chetverina 9*
+#
+# Prognostic significance of Targeting Polycomb Repressive Complex 2 in Different Tumor Types
+# Maksim Erokhin1*, Olga Chetverina 1,2,3*, Balázs Győrffy 4,5, Victor V. Tatarskiy 6,
+# Vladic Mogila7, Alexander A. Shtil 6, Igor B. Roninson 8, Jerome Moreaux 9-12,
+# Pavel G. Georgiev 7, Giacomo Cavalli 9*, Darya Chetverina13*
 
 
 import numpy as np
