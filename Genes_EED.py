@@ -10,9 +10,10 @@
 # for the research
 #
 # Prognostic significance of Targeting Polycomb Repressive Complex 2 in Different Tumor Types
-# Maksim Erokhin1*(a), Olga Chetverina 1,2,3*(a), Balázs Győrffy 4,5, Victor V. Tatarskiy 6,
-# Vladic Mogila7, Alexander A. Shtil 6, Igor B. Roninson 8, Jerome Moreaux 9-12,
-# Pavel G. Georgiev 7, Giacomo Cavalli 9*, Darya Chetverina13*
+# Maksim Erokhin 1*α , Olga Chetverina 2,,3*α , Balázs Győrffy 4,5 ,
+# Victor V. Tatarskiy 6 , Vladic Mogila 7 , Alexander A. Shtil 6 ,
+# Igor B. Roninson 8 , Jerome Moreaux 9-12 , Pavel G. Georgiev 7 ,
+# Giacomo Cavalli 9* , Darya Chetverina 13* .
 
 
 import numpy as np
@@ -99,7 +100,7 @@ for i in mut_set:
         table=table.append(new_row,ignore_index=True)
         
 
-table['p-value']=chisquare([table['Mut<'],table["dMut<"]],[table["pMut<"],table["dpMut<"]])[1]
+table['p-value']=chisquare([table["Mut<"],table["dMut<"]],[table["pMut<"],table["dpMut<"]])[1]
 
 table = table[["Mutation", "Rule", "Mut_num","Mut<","dMut<", "pMut<","dpMut<","half X2","p-value"]]
 table.to_excel("EED_0_5.xlsx")
