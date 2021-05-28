@@ -9,8 +9,8 @@
 #
 # for the research
 #
-# Prognostic significance of Targeting Polycomb Repressive Complex 2 in Different Tumor Types
-# Maksim Erokhin 1*α , Olga Chetverina 2,,3*α , Balázs Győrffy 4,5 ,
+# Clinical Correlations of Polycomb Repressive Complex 2 in Different Tumor Types
+# Maksim Erokhin1, †, Olga Chetverina1-3, †, Balázs Győrffy 4,5 ,
 # Victor V. Tatarskiy 6 , Vladic Mogila 7 , Alexander A. Shtil 6 ,
 # Igor B. Roninson 8 , Jerome Moreaux 9-12 , Pavel G. Georgiev 7 ,
 # Giacomo Cavalli 9* , Darya Chetverina 13* .
